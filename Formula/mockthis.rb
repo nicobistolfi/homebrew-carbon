@@ -5,21 +5,21 @@
 class Mockthis < Formula
   desc "Mock API endpoints for testing and development."
   homepage "https://mockthis.io"
-  version "0.9.15"
+  version "0.9.16"
   license "MIT"
 
   on_macos do
     on_intel do
-      url "https://github.com/nicobistolfi/mockthis-cli/releases/download/0.9.15/mockthis-cli_0.9.15_darwin_amd64.tar.gz"
-      sha256 "b7312da15e75e763bc429fb4fc5ffc348ee6fddfbb5d2bd8c933475bdffde63a"
+      url "https://github.com/nicobistolfi/mockthis-cli/releases/download/0.9.16/mockthis-cli_0.9.16_darwin_amd64.tar.gz"
+      sha256 "47613142d5e0417fd8b6c4978de0c67a1afd551d5e2410ad837977f5ad41b4a8"
 
       def install
         bin.install "mockthis"
       end
     end
     on_arm do
-      url "https://github.com/nicobistolfi/mockthis-cli/releases/download/0.9.15/mockthis-cli_0.9.15_darwin_arm64.tar.gz"
-      sha256 "e3df362ec8c3aa6b02af9bea926ba8598e8572be06c89baa60edcf4eb95d1161"
+      url "https://github.com/nicobistolfi/mockthis-cli/releases/download/0.9.16/mockthis-cli_0.9.16_darwin_arm64.tar.gz"
+      sha256 "d0bcfa0cb0e0c06c14d73514af3f06395c5f773cee2c28bcfa96506165f4557f"
 
       def install
         bin.install "mockthis"
@@ -30,8 +30,8 @@ class Mockthis < Formula
   on_linux do
     on_intel do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/nicobistolfi/mockthis-cli/releases/download/0.9.15/mockthis-cli_0.9.15_linux_amd64.tar.gz"
-        sha256 "78e1b0f2f42c9f8afdfefe964cb42ea00152dad9a55e5002d2fa0817494b2a39"
+        url "https://github.com/nicobistolfi/mockthis-cli/releases/download/0.9.16/mockthis-cli_0.9.16_linux_amd64.tar.gz"
+        sha256 "51be3920606690240f133717f50d39ff717cbb31dc1b12df0675f5a457187c6b"
 
         def install
           bin.install "mockthis"
@@ -40,8 +40,8 @@ class Mockthis < Formula
     end
     on_arm do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/nicobistolfi/mockthis-cli/releases/download/0.9.15/mockthis-cli_0.9.15_linux_arm64.tar.gz"
-        sha256 "d62b0a81bb595436e7dd075df5945799d07f1b06e7b96f690d0b3acc56fb288a"
+        url "https://github.com/nicobistolfi/mockthis-cli/releases/download/0.9.16/mockthis-cli_0.9.16_linux_arm64.tar.gz"
+        sha256 "47b1a37989fce6144f4c87da2c43daa42eb3e42eebc72078fba7a6db6dc85e8b"
 
         def install
           bin.install "mockthis"
